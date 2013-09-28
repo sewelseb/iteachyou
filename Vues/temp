@@ -1,0 +1,67 @@
+<!-- Content Start -->
+<div id="main">
+	<div id="main_content">
+	
+	
+    <div id="main_content_bottom">
+      <p class="subhead">Watch the videos below to get started quickly.</p>
+  
+      <div class="videos">
+      <div class="row">
+        <div class="video-item">
+        	<a href="http://www.youtube.com/watch?v=PHTZvbL1NT4&feature=youtu.be" title="BigBlueButton Teacher Overview" target="_blank"><img src="images/presenter_overview.png" alt="Teacher Overview" title="Teacher Overview" width="265" height="215"/></a>
+        	<h3><a href="http://www.youtube.com/watch?v=PHTZvbL1NT4&feature=youtu.be" title="BigBlueButton Teacher Overview" target="_blank">Moderator/Presenter <br> Overview</a></h3>
+        </div>
+    
+        <div class="video-item">
+        	<a href="http://www.youtube.com/watch?v=LS2lttmPi6A" title="Student Overview" target="_blank"><img src="images/student_overview.png" alt="Student Overview" title="Student Overview" width="265" height="215"/></a>
+        	<h3><a href="http://www.youtube.com/watch?v=LS2lttmPi6A" title="Student Overview" target="_blank">Viewer Overview</a></h3>
+        </div>
+    
+        <div class="video-item">
+        	<a href="http://youtu.be/4C-rOd8bi6s" title="Developer Overview" target="_blank"><img src="images/developer_overview.png" alt="Developer Overview" title="Developer Overview" width="265" height="215"/></a>
+        	<h3><a href="http://youtu.be/4C-rOd8bi6s" title="Developer Overview" target="_blank">Developer Overview</a></h3>
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+
+    </div>
+  <div id="main_content_join">	 
+    <div class="join_form">
+      <h2>Join a Demo Meeting</h2>
+      <form name="form1" method="GET" onsubmit="return checkform(this);" action="/demo/demo1.jsp">
+        <input type="text" id="username" required name="username" placeholder="Enter Your Name" size="29" class="field"/>
+        <input type="submit" value="Join" class="submit_btn" class="submit_btn"/><br/>
+        <input type="hidden" name="action" value="create">
+      </form>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+	 <div id="main_content_top">
+      <div class="f-left">
+        <img src="images/bbb-overview.png" alt="Overview" title="Overview"/>
+      </div>
+      <div id="welcome" class="f-left">	
+        <h1>Welcome</h1>
+        <p><a href="http://bigbluebutton.org/" title="BigBlueButton">BigBlueButton</a> is an open source web conferencing system for on-line learning.</p>
+        <p>BigBlueButton enables you share documents (PDF and any office document), webcams, chat, audio, and your desktop.  BigBlueButton can also record your sessions for later playback.</p>
+	<p>The BigBlueButton project is supported by a <a href="http://bigbluebutton.org/support" title="BigBlueButton Support">community of developers</a> that care about good design and a streamlined user experience.</a>
+      </div>
+      <div class="clearfix"></div>
+	 </div>
+	 
+	 
+    <div class="api">
+      <h3>For Developers</h3>
+      <p class="content">See <a href="/demo/demo1.jsp">API examples</a> for how to integrate BigBlueButton with your applications.</p>
+    </div>
+
+
+
+	
+</div>
+</div>
+
+<!-- Content End -->
